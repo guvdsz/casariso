@@ -101,9 +101,9 @@ export default function RootLayout({
 		"@context": "https://schema.org",
 		"@type": "Restaurant",
 		name: "Casa Risô",
-		image: "https://casariso.com.br/og-image.jpg",
-		"@id": "https://casariso.com.br",
-		url: "https://casariso.com.br",
+		image: "https://casariso.vercel.app/foto-1.png",
+		"@id": "https://casariso.vercel.app",
+		url: "https://casariso.vercel.app",
 		telephone: "(73) 99999-8888",
 		priceRange: "$$",
 		address: {
