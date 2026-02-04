@@ -36,7 +36,7 @@ export const MenuHighlight = () => {
 									className="object-cover shadow-xl transition-transform duration-700 group-hover:scale-105"
 								/>
 								<div className="absolute bottom-6 right-6 bg-white/90 backdrop-blur px-4 py-2 font-serif text-riso-dark text-sm border border-riso-stone">
-									Risoto de Salmão com Limão
+									Filé de Salmão com Limão
 									Siciliano
 								</div>
 							</div>

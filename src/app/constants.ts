@@ -26,8 +26,8 @@ export const IMAGES = {
 };
 
 export const CONTENT = {
-	ADDRESS: "Rua das Flores, 123 - Jardins",
-	PHONE: "(11) 99999-8888",
+	ADDRESS: "Teixeira de Freitas - BA",
+	PHONE: "(73) 99999-8888",
 	INSTAGRAM: "@casariso",
 	RESERVATION_LINK: "#reservas",
 	OPENING_HOURS: "Ter. a Sáb. 19h-22:30 | Dom. 12h-15h",

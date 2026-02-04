@@ -1,0 +1,27 @@
+{
+	"name": "Casa Risô Restaurante",
+	"short_name": "Casa Risô",
+	"description": "Restaurante de cozinha contemporânea em Teixeira de Freitas - BA. Gastronomia, elegância e natureza em perfeita harmonia.",
+	"start_url": "/",
+	"display": "standalone",
+	"background_color": "#f5ebe0",
+	"theme_color": "#8B6914",
+	"orientation": "portrait-primary",
+	"scope": "/",
+	"lang": "pt-BR",
+	"icons": [
+		{
+			"src": "/icon-192.png",
+			"sizes": "192x192",
+			"type": "image/png",
+			"purpose": "any maskable"
+		},
+		{
+			"src": "/icon-512.png",
+			"sizes": "512x512",
+			"type": "image/png",
+			"purpose": "any maskable"
+		}
+	],
+	"categories": ["food", "restaurant", "lifestyle"]
+}

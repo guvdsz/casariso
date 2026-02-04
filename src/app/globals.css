@@ -50,3 +50,51 @@ body {
 	color: var(--foreground);
 	font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Loader Animations */
+@keyframes fade-in {
+	0% {
+		opacity: 0;
+		transform: scale(0.95);
+	}
+	100% {
+		opacity: 1;
+		transform: scale(1);
+	}
+}
+
+@keyframes expand-left {
+	0% {
+		width: 0;
+		opacity: 0;
+	}
+	100% {
+		width: 2rem;
+		opacity: 1;
+	}
+}
+
+@keyframes expand-right {
+	0% {
+		width: 0;
+		opacity: 0;
+	}
+	100% {
+		width: 2rem;
+		opacity: 1;
+	}
+}
+
+.animate-fade-in {
+	animation: fade-in 0.8s ease-out forwards;
+}
+
+.animate-expand-left {
+	animation: expand-left 0.6s ease-out 0.3s forwards;
+	width: 0;
+}
+
+.animate-expand-right {
+	animation: expand-right 0.6s ease-out 0.3s forwards;
+	width: 0;
+}
